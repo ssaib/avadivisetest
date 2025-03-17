@@ -6,6 +6,10 @@
 /*
  *  Owl Carousel - Core
  */
+
+.logo2 img {
+  float: right;
+}
 .owl-carousel {
   display: none;
   width: 100%;
@@ -266,3 +270,9 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+  @media (max-width: 768px) {
+    .logo2 img {
+        float: none;
+    }
+  }
